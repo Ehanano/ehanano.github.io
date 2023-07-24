@@ -1,77 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <title>AnonyCube</title>
-  <link rel="stylesheet" href="styles.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>え.net</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#" class="active-button">ホーム</a></li>
-        <li><a href="#">自己紹介</a></li>
-        <li><a href="#">サービス</a></li>
-        <li><a href="#">連絡先</a></li>
-      </ul>
-    </nav>
-  </header>
-<br>
-  <section class="hero">
-    <div class="hero-content">
-      <h1 id="greeting">更新中です</h1>
-      <p>このサイトはHTMLを勉強するために使います。<br>
-        UIが完全に変わるなど、ちょくちょく大きな更新をします<br>
-      </p>
-      <br>
-      <h3><a href=http://anony.info/index2 >このページは壊滅的なので新しくホームを作りました。</a><br>最初から作り直すことも視野に入れてます(´;ω;｀)</h3>
-      <br>
-  <!--
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo">え.net</h1>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href=/"">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <aside class="author-info">
+            <div class="container">
+                <img src="my-icon.jpg" alt="自己紹介用の画像r">
+                <h2>EHANANO</h2>
+                <p>川崎市に住む高校生</p>
+                <ul class="social-links">
+                    <li><a href="https://x.com/EHANANO_MUSIC">Twitter</a></li>
+                    <li><a href="https://github.com/Ehanano">GitHub</a></li>
+                    <li><a href="https://Instagram.com/EHANANO_MUSIC">Instagram</a></li>
+                    <li><a href="https://threads.net/ehanano_music">Threads</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="blog-posts">
+            <div class="container">
+                <article class="blog-post">
+                    <h2>記事１</h2>
+                    <p class="post-meta">投稿日 : 2023 mm/dd</p>
+                    <p>本文の最初の方</p>
+                    <a href=/"">この記事を読む</a>
+                </article>
+
+                <article class="blog-post">
+                    <h2>記事２</h2>
+                    <p class="post-meta">投稿日 : 2023 mm/dd</p>
+                    <p>本文の最初の方</p>
+                    <a href=/"">この記事を読む</a>
+                </article>
+
+                <!-- More blog posts can be added here
+                    
+                    
+                    <article class="blog-post">
+                    <h2>記事番号</h2>
+                    <p class="post-meta">投稿日 : 2023 mm/dd</p>
+                    <p>本文の最初の方</p>
+                    <a href="#">この記事を読む</a>
+                    </article>
+                
+            -->
+
+            </div>
+        </main>
+    </div>
+
+    <footer>
         <div class="container">
-          <h1>更新履歴</h1>
-          <ul>
-            <li>
-              <h2>最新情報</h2>
-              <p class="date">2023年7月6日0時45分</p>
-              <p>以下の変更を加えました:</p>
-              <ul>
-              <li>ダークモードの削除</li>
-              <li>ページサイズの軽量化</li>
-              <li>デバイスによって表示がおかしくなる不具合の修正</li>
-          </ul>
+            <p>&copy; 2023 EHANANO. All rights reserved.</p>
         </div>
-      -->
-
-    
-    </div>
-  </section>
-
-  <div class="nextinfo">
-    <title>新着情報</title>
-  </head>
-  <body>
-  <p>2023/07/24 <a href="http://anony.info" target="_parent"></a>ダークモードとライトモードを一時的に無効化しました</p>
-  <p>2023/07/21 <a href="http://anony.info" target="_parent"></a>ダークモードとライトモードの仕様を変更しました</p>
-  <p>2023/07/16 <a href="http://anony.info/index2" target="_parent">トップページ2</a>を公開しました</p>
-  <h3>過去の更新履歴は<a href="nextinfo.html">こちら</a>をご覧ください</h3>
-  </body>
-  </div>
-  <br>
-  <br>
-  <br>
-  <h3><a href="http://anony.info/wtdlogin">ゲームのログイン画面風ページ</a></h3>
-  <br>
-
-
-  <footer>
-    <div class="footer-content">
-      <p>&copy; 2023 EHANANO. All rights reserved.</p>
-    </div>
-  </footer>
-
+    </footer>
 </body>
-
 </html>
